@@ -26,7 +26,7 @@ public class StarterApplication extends Application {
         Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
                 .applicationId("myappID") // your appID
                 .clientKey("1aWEOEXz77Sh") // your master key
-                .server("http://3.136.236.39/parse/") // get it from AWS (new 3.136.236.39) (old http://3.12.108.65/parse/)
+                .server("http://3.136.236.39/parse/") 
                 .build()
         );
 
